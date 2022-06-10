@@ -9,6 +9,7 @@
 }
 .card-body {
   h5 {
+    @extend .bg-dark;
     color: magenta;
     font-family: "Ruge Boogie", cursive;
     font-size: larger;
@@ -19,7 +20,10 @@
     font-size: larger;
   }
   a {
+    @extend .text-light;
     font-family: "Ruge Boogie", cursive;
     font-size: larger;
   }
 }
+
+
