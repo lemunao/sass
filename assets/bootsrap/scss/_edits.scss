@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap");
 
 .card-title {
   @extend .card;
   color: magenta;
 }
-.card-body {  
-    h5{
-        color: magenta;
-        font-family: 'Ruge Boogie', cursive;
-        font-size: larger;
-    }
+.card-body {
+  h5 {
+    color: magenta;
+    font-family: "Ruge Boogie", cursive;
+    font-size: larger;
+  }
   p {
     color: magenta;
-    font-family: 'Ruge Boogie', cursive;
+    font-family: "Ruge Boogie", cursive;
     font-size: larger;
   }
   a {
-    font-family: 'Ruge Boogie', cursive;
+    font-family: "Ruge Boogie", cursive;
     font-size: larger;
   }
 }

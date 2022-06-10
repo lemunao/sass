@@ -7139,27 +7139,6 @@ fieldset:disabled .btn {
           transform: none;
 }
 
-.card-title {
-  color: magenta;
-}
-
-.card-body h5, .card-body .h5 {
-  color: magenta;
-  font-family: 'Ruge Boogie', cursive;
-  font-size: larger;
-}
-
-.card-body p {
-  color: magenta;
-  font-family: 'Ruge Boogie', cursive;
-  font-size: larger;
-}
-
-.card-body a {
-  font-family: 'Ruge Boogie', cursive;
-  font-size: larger;
-}
-
 .clearfix::after {
   display: block;
   clear: both;
@@ -11652,5 +11631,26 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+.card-title {
+  color: magenta;
+}
+
+.card-body h5, .card-body .h5 {
+  color: magenta;
+  font-family: "Ruge Boogie", cursive;
+  font-size: larger;
+}
+
+.card-body p {
+  color: magenta;
+  font-family: "Ruge Boogie", cursive;
+  font-size: larger;
+}
+
+.card-body a {
+  font-family: "Ruge Boogie", cursive;
+  font-size: larger;
 }
 /*# sourceMappingURL=bootstrap.css.map */
