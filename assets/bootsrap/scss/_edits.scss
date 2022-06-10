@@ -3,6 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap");
 
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
 .card-title {
   @extend .card;
   color: magenta;
@@ -23,7 +29,7 @@
     @extend .text-light;
     font-family: "Ruge Boogie", cursive;
     font-size: larger;
-    
+
   }
 }
 
